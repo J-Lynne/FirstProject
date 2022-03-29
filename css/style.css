@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 300px) {
+
+    body{
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .contact [type="text"],[type="email"], textarea {
+        width: 95%;
+        font-family: 'Montserrat', sans-serif;
+        padding: 3%;
+    }
+
+    /*^=start with
+    *=contain with
+    $=end with
+    */
+
+    .footer{
+        background-color: black;
+        color: whitesmoke;
+        padding: 5%;
+        text-align: center;
+    }
+
+    .footer > span{
+        font-weight: bold;
+    }
+
+}
+
+
+/*
+    1 - Plan the sections from my page.
+        a) Footer
+        b) Contact
+        c) Education
+        d) skills
+        e) projexts
+        f) about
+        g) header
+
+    Differenct betweent git and github
+    git is local software while workibg no network required
+    Github is cloud version. Must be connected. push to repository.
+*/
