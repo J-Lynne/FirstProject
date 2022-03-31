@@ -13,6 +13,34 @@
 <body>
     <main>
 
+        <!-- Projects section -->
+        <!-- https://getbootstrap.com/docs/5.1/components/accordion/ -->
+        <section class="projects" id="projects" >
+            <!--Accordion Wrapper -->
+            <div class="accordion" id="projectWrapper">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#projectone" aria-expanded="true" aria-controls="collapseOne">
+                      Personal Prortfolio - HTML and CSS 
+                    </button>
+                  </h2>
+                  <div id="projectone" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#projectWrapper">
+                    <div class="accordion-body">
+                        <p>
+                            <strong>This is my first HTML and CSS project</strong>
+                            I had to work 5 days to build 4 pages of my portfolio, talking about my skills, education, background experience, and projects.
+                            Despite that this was my first project, I have improved way more
+                         <code>.accordion-body</code>, though the transition does limit overflow.
+                        </p>
+                    </div>
+                  </div>
+                </div> <!-- End of First Project -->
+              </div> <!--End of Accordion Wrapper -->
+        </section>
+
+
+
+
         <!-- SKILLS SECTION -->
         <section class="skills d-flex" id="skills">
             <h2>
