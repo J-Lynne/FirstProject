@@ -24,9 +24,38 @@
         text-transform: uppercase;
     }
 
+    .about > p {
+        padding: 3%;
+    }
+
+    .work-experience {
+        flex-direction: column;
+        row-gap: 5vh;
+    }
+
+    .work-experience h3 {
+        font-weight: 600;
+        color: darkslategray;
+    }
+
+    .work-experience > article {
+        border: 2px solid lightgray;
+        border-radius: 10px;
+        padding: 2%;
+    }
+
     .skills {
         flex-direction: column;
         row-gap: 5vh;
+    }
+
+    #skills > div > aside {
+        width: 15vh;
+        height: 15vh;
+        padding: 15%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
     #html-5 > aside {
@@ -35,26 +64,6 @@
 
     #projectone p {
         line-height: 2;
-    }
-
-    #skills > div > aside {
-        margin-right: 3%;
-        margin-bottom: 3%;
-        width: 15vh;
-        height: 15vh;
-        padding: 15%;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        color: white;
-        font-weight: 600;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #projectone > p{
-        padding: 3%;
     }
 
     #projectone > div > aside {
@@ -66,18 +75,17 @@
         color: white;
         font-weight: 600;
         background-color: gray;
-
+        
         display: flex;
-        justify-content: center;
+        text-align: center;
         align-items: center;
     }
 
-    #projecttwo > p{
-        padding: 3%;
+    #projecttwo p {
+        line-height: 2;
     }
 
     #projecttwo > div > aside {
-
         margin-right: 3%;
         margin-bottom: 0.5%;
         float: left;
@@ -86,18 +94,17 @@
         color: white;
         font-weight: 600;
         background-color: gray;
-
+        
         display: flex;
-        justify-content: center;
+        text-align: center;
         align-items: center;
     }
 
-    #projectthree > p{
-        padding: 3%;
+    #projectthree p {
+        line-height: 2;
     }
 
     #projectthree > div > aside {
-
         margin-right: 3%;
         margin-bottom: 0.5%;
         float: left;
@@ -106,13 +113,11 @@
         color: white;
         font-weight: 600;
         background-color: gray;
-
+        
         display: flex;
-        justify-content: center;
+        text-align: center;
         align-items: center;
     }
-
-
     
     #css > aside {
         background: url("/img/css.png");
@@ -207,6 +212,31 @@
 
     .footer > span {
         font-weight: bold;
+    }
+}
+
+@media (min-width : 700px){
+
+    .contact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact > form{
+        width: 80%;
+    }
+
+    .contact > form > div{
+        padding: 1%;
+    }
+
+    .contact label{
+        width: 30%;
+    }
+
+    .contact [type="text"], [type="email"] {
+        width: 60%;
+        padding: 1%;
     }
 }
 
